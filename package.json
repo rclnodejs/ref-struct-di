@@ -1,5 +1,5 @@
 {
-  "name": "ref-struct-di",
+  "name": "@rclnodejs/ref-struct-di",
   "description": "Create ABI-compliant \"struct\" instances on top of Buffers",
   "keywords": [
     "struct",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-ffi-napi/ref-struct-di.git"
+    "url": "git://github.com/rclnodejs/ref-struct-di.git"
   },
   "main": "./lib/struct.js",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "nyc": "^15.0.0",
     "node-gyp-build": "^4.2.1",
     "node-addon-api": "^3.0.0",
-    "ref-array-di": "^1.2.2",
-    "ref-napi": "^3.0.2"
+    "@rclnodejs/ref-array-di": "^1.2.2",
+    "@rclnodejs/ref-napi": "^4.0.0"
   }
 }
