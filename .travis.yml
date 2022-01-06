@@ -2,16 +2,25 @@ sudo: false
 
 dist: bionic
 
+os:
+  - linux
+  - osx
+
+osx_image: xcode12
+
 addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
+    packages:
+      - g++
 
 language: node_js
 
 node_js:
+  - "10"
+  - "12"
   - "14"
-  - "15"
   - "16"
 
 after_success:
